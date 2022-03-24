@@ -1,5 +1,5 @@
 pipeline {
-    agent java-docker-slave
+    node ''java-docker-slave''
 
     stages {
         stage ('Compile Stage') {
